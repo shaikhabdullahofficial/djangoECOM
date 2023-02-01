@@ -19,4 +19,5 @@ from eCom import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('layout/',views.layout),
+    path('product/',views.addproduct, name='product'),
 ]
